@@ -5,9 +5,9 @@
 'use strict';
 
 // ── CONSTANTS ──
-const PHONE1    = '9303323177';
+const PHONE1    = '9755312991';
 const PHONE2    = '9589039426';
-const WHATSAPP  = '919303323177';
+const WHATSAPP  = '9755312991';
 const EMAIL1    = 'sakshiydv722@gmail.com';
 const EMAIL2    = 'prakash-engineering4@gmail.com';
 
