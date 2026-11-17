@@ -1676,3 +1676,30 @@ footer {
   .req-factors { grid-template-columns:1fr; }
   .about-pillars { grid-template-columns:1fr; }
 }
+/* MOBILE RESPONSIVE WIDTH FIX */
+@media screen and (max-width: 640px) {
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    img,
+    video,
+    iframe {
+        max-width: 100%;
+    }
+
+    .container,
+    .section {
+        max-width: 100%;
+    }
+}
