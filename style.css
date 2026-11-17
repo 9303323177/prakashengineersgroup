@@ -1662,6 +1662,27 @@ footer {
   .step-number { margin-bottom:0; flex-shrink:0; }
 }
 @media (max-width:640px) {
+   @media (max-width:640px) {
+
+    /* Existing CSS code yahan rahega */
+
+    .header-actions {
+        gap: 6px;
+        flex-shrink: 0;
+    }
+
+    .hamburger {
+        display: flex !important;
+        flex-shrink: 0;
+    }
+
+    .btn-call,
+    .btn-quote {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+}
   .section { padding:56px 0; }
   .why-grid { grid-template-columns:1fr; }
   .products-grid { grid-template-columns:1fr; }
